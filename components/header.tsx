@@ -82,7 +82,7 @@ export default function Header() {
             <div className="hidden md:flex items-center space-x-8 text-white/90">
               <div className="flex items-center space-x-2 hover:text-amber-400 transition-colors duration-300">
                 <Mail className="h-4 w-4" />
-                <a href="mailto:info@hbjsyndicate.com">info@hbjsyndicate.com</a>
+                <a href="mailto:info@hbjsyndicate.com">hbjsyndicate21@gmail.com</a>
               </div>
               <div className="flex items-center space-x-2 hover:text-amber-400 transition-colors duration-300">
                 <Phone className="h-4 w-4" />
@@ -99,7 +99,7 @@ export default function Header() {
               </div>
               <div className="flex items-center space-x-2 text-white/70">
                 <MapPin className="h-4 w-4" />
-                <span>Mumbai, India</span>
+                <span>Ahmedabad, Gujarat</span>
               </div>
             </div>
 
@@ -126,16 +126,16 @@ export default function Header() {
                 >
                   <Facebook className="h-4 w-4" />
                 </a>
-                <a
+                {/* <a
                   href="https://twitter.com/hbjsyndicate"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-sky-400 transition-all duration-300 hover:scale-110"
                 >
                   <Twitter className="h-4 w-4" />
-                </a>
+                </a> */}
                 <a
-                  href="https://instagram.com/hbjsyndicate"
+                  href="https://www.instagram.com/hbjsyndicate21?igsh=d2ptYW45OHA4ZjF4&utm_source=ig_contact_invite"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-pink-400 transition-all duration-300 hover:scale-110"
@@ -143,21 +143,21 @@ export default function Header() {
                   <Instagram className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://linkedin.com/company/hbjsyndicate"
+                  href="https://www.linkedin.com/company/hbj-syndicate/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-blue-500 transition-all duration-300 hover:scale-110"
                 >
                   <Linkedin className="h-4 w-4" />
                 </a>
-                <a
+                {/* <a
                   href="https://t.me/hbjsyndicate"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-blue-400 transition-all duration-300 hover:scale-110"
                 >
                   <Send className="h-4 w-4" />
-                </a>
+                </a> */}
               </div>
 
               {/* Mobile Social Icons */}
@@ -250,7 +250,7 @@ export default function Header() {
 
             {/* Contact Info & CTA */}
             <div className="hidden lg:flex items-center space-x-4">
-              <div
+              {/* <div
                 className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-500 ${
                   isScrolled
                     ? "text-slate-700 bg-slate-100/80"
@@ -259,11 +259,11 @@ export default function Header() {
               >
                 <Phone className={`h-4 w-4 ${isScrolled ? "text-amber-600" : "text-amber-300"}`} />
                 <span className="text-sm font-semibold">9173922112</span>
-              </div>
+              </div> */}
               <Link href="/contact">
                 <Button
                   className={`cta-button shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 px-6 py-3 font-semibold ${
-                    isScrolled
+                    isScrolled    
                       ? "bg-gradient-to-r from-amber-500 via-blue-600 to-slate-800 hover:from-slate-800 hover:via-blue-600 hover:to-amber-500 text-white"
                       : "bg-white/20 backdrop-blur-sm border border-white/30 text-white hover:bg-white/30 hover:border-white/50"
                   }`}

@@ -211,9 +211,9 @@ export default function HomePage() {
             {/* Subtitle with static positioning */}
             <div className="hero-subtitle space-y-6 md:space-y-8 mb-12 md:mb-16">
               <h2 className="text-xl md:text-2xl lg:text-4xl xl:text-5xl text-slate-200 font-light leading-relaxed tracking-wide">
-                Crafting Digital
+                Your Vision 
                 <span className="block font-medium bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent">
-                  Masterpieces
+                  Our Code 
                 </span>
               </h2>
 

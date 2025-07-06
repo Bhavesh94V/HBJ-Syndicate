@@ -36,12 +36,12 @@ export default function AboutPage() {
 
   const founders = [
     {
-      name: "Harsh Prajapati",
+      name: "Jay Prajapati",
       position: "CEO & Founder",
       role: "Chief Executive Officer",
-      icon: Crown,
+      icon: Code,
       description:
-        "Visionary leader with 8+ years in technology and business strategy. Drives company vision, strategic partnerships, and business growth with deep expertise in digital transformation and client success.",
+        "Visionary leader with 1+ years in technology and business strategy. Drives company vision, strategic partnerships, and business growth with deep expertise in digital transformation and client success.",
       expertise: [
         "Business Strategy",
         "Digital Transformation",
@@ -50,21 +50,25 @@ export default function AboutPage() {
         "Strategic Planning",
         "Market Analysis",
       ],
-      gradient: "from-amber-500 to-orange-600",
-      experience: "8+ Years",
-      education: "MBA in Business Management, B.Tech in Computer Science",
-      phone: "9173922112",
-      email: "harsh@hbjsyndicate.com",
-      achievements: ["Led 150+ successful projects", "Built strategic partnerships", "Achieved 300% business growth"],
+      gradient: "from-blue-500 to-indigo-600",
+      experience: "3+ Years",
+      education: "M.Tech in Software Engineering, B.Tech in Computer Science",
+      phone: "+ 91 9313961645",
+      email: "prajapatijay2111@gmail.com",
+      achievements: [
+        "Architected 100+ web applications",
+        "Expert in React, Node.js, Python",
+        "Cloud solutions specialist",
+      ],
       specialization: "Business Development & Strategic Leadership",
     },
     {
-      name: "Jay Prajapati",
+      name: "Harsh Prajapati",
       position: "CTO & Co-Founder",
       role: "Chief Technology Officer",
-      icon: Code,
+      icon: Crown,
       description:
-        "Full-stack technology expert with 7+ years specializing in modern web frameworks, cloud architecture, and scalable solutions. Leads technical innovation and development excellence.",
+        "Full-stack technology expert with 3+ years specializing in modern web frameworks, cloud architecture, and scalable solutions. Leads technical innovation and development excellence.",
       expertise: [
         "Full-Stack Development",
         "Cloud Architecture",
@@ -73,17 +77,13 @@ export default function AboutPage() {
         "DevOps",
         "AI/ML Integration",
       ],
-      gradient: "from-blue-500 to-indigo-600",
-      experience: "7+ Years",
-      education: "M.Tech in Software Engineering, B.Tech in Computer Science",
-      phone: "9173922112",
-      email: "jay@hbjsyndicate.com",
-      achievements: [
-        "Architected 100+ web applications",
-        "Expert in React, Node.js, Python",
-        "Cloud solutions specialist",
-      ],
-      specialization: "Technical Architecture & Development",
+      gradient: "from-amber-500 to-orange-600",
+      experience: "1+ Years",
+      education: "MBA in Business Management, B.Tech in Computer Science",
+      phone: "+ 91 8780789838",
+      email: "prajapatiharshm119@gmail.com",
+      achievements: ["Led 150+ successful projects", "Built strategic partnerships", "Achieved 300% business growth"],
+      specialization: "Technical Architecture & Development"
     },
     {
       name: "Bhavesh Vishwakarma",
@@ -91,7 +91,7 @@ export default function AboutPage() {
       role: "Innovation Director & Technical Lead",
       icon: Users,
       description:
-        "Expert full-stack developer with 6+ years in database design, API development, and system optimization. Passionate about creating innovative solutions that exceed client expectations.",
+        "Expert full-stack developer with 1+ years in database design, API development, and system optimization. Passionate about creating innovative solutions that exceed client expectations.",
       expertise: [
         "Backend Development",
         "Database Design",
@@ -101,10 +101,10 @@ export default function AboutPage() {
         "Quality Assurance",
       ],
       gradient: "from-slate-600 to-slate-800",
-      experience: "6+ Years",
+      experience: "1+ Years",
       education: "B.Tech in Information Technology, Certified Cloud Architect",
-      phone: "9173922112",
-      email: "bhavesh@hbjsyndicate.com",
+      phone: "+ 91 9104596499",
+      email: "bhaveshvishwakarma223@gmail.com",
       achievements: ["Optimized 200+ database systems", "Built 50+ REST APIs", "Performance expert"],
       specialization: "Backend Systems & Database Architecture",
     },
@@ -191,9 +191,9 @@ export default function AboutPage() {
                     </div>
 
                     {/* Education Details */}
-                    <div className="mb-6 p-3 bg-slate-100/50 rounded-lg">
+                    {/* <div className="mb-6 p-3 bg-slate-100/50 rounded-lg">
                       <p className="text-xs text-slate-900 font-medium">{founder.education}</p>
-                    </div>
+                    </div> */}
 
                     {/* Contact Information */}
                     <div className="space-y-2 mb-6 p-4 bg-slate-100/50 rounded-lg">
@@ -211,7 +211,7 @@ export default function AboutPage() {
                     <p className="text-slate-600 mb-6 leading-relaxed text-sm">{founder.description}</p>
 
                     {/* Achievements */}
-                    <div className="mb-6">
+                    {/* <div className="mb-6">
                       <h4 className="font-semibold text-slate-900 text-sm uppercase tracking-wide mb-3">
                         Key Achievements
                       </h4>
@@ -223,7 +223,7 @@ export default function AboutPage() {
                           </div>
                         ))}
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* Expertise Tags */}
                     <div className="space-y-3">
@@ -264,9 +264,9 @@ export default function AboutPage() {
                       excellence.
                     </p>
                     <p>
-                      <strong className="text-slate-900">Harsh Prajapati</strong> leads our business strategy and client
+                      <strong className="text-slate-900">Jay Prajapati</strong> leads our business strategy and client
                       relationships, ensuring every project aligns with business goals.{" "}
-                      <strong className="text-slate-900">Jay Prajapati</strong> drives our technical innovation and
+                      <strong className="text-slate-900">Harsh Prajapati</strong> drives our technical innovation and
                       architecture decisions, while <strong className="text-slate-900">Bhavesh Vishwakarma</strong>{" "}
                       ensures robust backend systems and optimal performance.
                     </p>
@@ -371,17 +371,17 @@ export default function AboutPage() {
                 <div className="text-center">
                   <Phone className="h-8 w-8 text-amber-400 mx-auto mb-4" />
                   <h3 className="font-display font-semibold mb-2">Call Us</h3>
-                  <p className="text-slate-300">9173922112</p>
+                  <p className="text-slate-300">+ 91 9173922112</p>
                 </div>
                 <div className="text-center">
                   <Mail className="h-8 w-8 text-amber-400 mx-auto mb-4" />
                   <h3 className="font-display font-semibold mb-2">Email Us</h3>
-                  <p className="text-slate-300">hello@hbjsyndicate.com</p>
+                  <p className="text-slate-300">hbjsyndicate21@gmail.com</p>
                 </div>
                 <div className="text-center">
                   <MapPin className="h-8 w-8 text-amber-400 mx-auto mb-4" />
                   <h3 className="font-display font-semibold mb-2">Location</h3>
-                  <p className="text-slate-300">Mumbai, India</p>
+                  <p className="text-slate-300">Ahmedabad, Gujarat</p>
                 </div>
               </div>
 

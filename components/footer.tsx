@@ -19,15 +19,15 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-slate-300">
                 <Phone className="h-5 w-5 text-amber-400" />
-                <span className="font-medium">9173922112</span>
+                <span className="font-medium">+ 91 9173922112</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-300">
                 <Mail className="h-5 w-5 text-amber-400" />
-                <span>hello@hbjsyndicate.com</span>
+                <span>hbjsyndicate21@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-300">
                 <MapPin className="h-5 w-5 text-amber-400" />
-                <span>India</span>
+                <span>Ahmedabad, Gujarat</span>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default function Footer() {
 
             <div className="mt-8">
               <p className="text-slate-300 text-sm mb-2">Business Hours:</p>
-              <p className="text-amber-400 font-medium">Mon - Sat: 9:00 AM - 8:00 PM</p>
+              <p className="text-amber-400 font-medium">Mon - Sat: 9:30 AM - 6:30 PM</p>
               <p className="text-slate-300 text-sm">Sunday: Available for urgent support</p>
             </div>
           </div>
