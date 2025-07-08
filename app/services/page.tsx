@@ -183,10 +183,10 @@ export default function ServicesPage() {
                         ))}
                       </ul>
                       <div className="flex items-center justify-between">
-                        <span className="text-lg font-display font-semibold text-slate-900">{service.price}</span>
+                        {/* <span className="text-lg font-display font-semibold text-slate-900">{service.price}</span> */}
                         <Button
                           size="sm"
-                          className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-orange-600 hover:to-amber-500 text-white shadow-lg hover:shadow-xl transition-all duration-500 transform hover:scale-105"
+                          className="bg-gradient-to-r mx-auto from-amber-500 to-orange-600 hover:from-orange-600 hover:to-amber-500 text-white shadow-lg hover:shadow-xl transition-all duration-500 transform hover:scale-105"
                         >
                           <div className="flex items-center">
                             Learn More

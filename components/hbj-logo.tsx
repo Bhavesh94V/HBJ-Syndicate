@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react"
 import { gsap } from "gsap"
 import Image from "next/image"
+import HBJlogo from '../public/images/hbj-logo.png'
 
 export default function HBJLogo({ className = "w-12 h-12" }: { className?: string }) {
   const logoRef = useRef<HTMLDivElement>(null)
@@ -28,11 +29,11 @@ export default function HBJLogo({ className = "w-12 h-12" }: { className?: strin
       {/* Logo Image */}
       <div className="relative z-10 w-full h-full flex items-center justify-center">
         <Image
-          src="/images/hbj-logo.png"
+          src={HBJlogo}
           alt="HBJ Syndicate Logo"
           width={48}
           height={48}
-          className="w-full h-full object-contain"
+          className="w-full h-full rounded object-contain"
           priority
         />
       </div>

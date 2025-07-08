@@ -22,7 +22,7 @@ export default function ProjectsPage() {
       category: "Corporate Website",
       description:
         "A sophisticated corporate website with advanced CMS integration, multi-language support, and performance optimization for enhanced user experience.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/placeholder.png?height=400&width=600",
       technologies: ["React.js", "Next.js", "Tailwind CSS", "Strapi CMS"],
       features: ["Responsive Design", "SEO Optimized", "Multi-language", "Admin Dashboard"],
       challenge:

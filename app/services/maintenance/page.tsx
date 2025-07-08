@@ -205,7 +205,7 @@ export default function MaintenancePage() {
                       {plan.name}
                     </CardTitle>
                     <div className="mb-4">
-                      <span className="text-4xl font-display font-bold text-slate-900">{plan.price}</span>
+                      {/* <span className="text-4xl font-display font-bold text-slate-900">{plan.price}</span> */}
                       <span className="text-slate-600">{plan.period}</span>
                     </div>
                     <p className="text-slate-600 leading-relaxed">{plan.description}</p>

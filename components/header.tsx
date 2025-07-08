@@ -66,11 +66,10 @@ export default function Header() {
     <>
       {/* Top Mini Header */}
       <div
-        className={`top-bar fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${
-          isScrolled
+        className={`top-bar fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out ${isScrolled
             ? "transform -translate-y-full opacity-0 pointer-events-none"
             : "transform translate-y-0 opacity-100 bg-slate-900/95 backdrop-blur-xl border-b border-white/10 shadow-lg"
-        }`}
+          }`}
         style={{
           height: isScrolled ? "0px" : "48px",
           overflow: "hidden",
@@ -119,7 +118,7 @@ export default function Header() {
             <div className="flex items-center space-x-6">
               <div className="hidden md:flex items-center space-x-4">
                 <a
-                  href="https://facebook.com/hbjsyndicate"
+                  href="https://www.facebook.com/profile.php?id=61577842396368&rdid=zikEZDfBCCFMfSYV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GmAPnnXtW%2F#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-blue-400 transition-all duration-300 hover:scale-110"
@@ -127,13 +126,13 @@ export default function Header() {
                   <Facebook className="h-4 w-4" />
                 </a>
                 {/* <a
-                  href="https://twitter.com/hbjsyndicate"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/70 hover:text-sky-400 transition-all duration-300 hover:scale-110"
-                >
-                  <Twitter className="h-4 w-4" />
-                </a> */}
+                    href="https://twitter.com/hbjsyndicate"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white/70 hover:text-sky-400 transition-all duration-300 hover:scale-110"
+                  >
+                    <Twitter className="h-4 w-4" />
+                  </a> */}
                 <a
                   href="https://www.instagram.com/hbjsyndicate21?igsh=d2ptYW45OHA4ZjF4&utm_source=ig_contact_invite"
                   target="_blank"
@@ -162,16 +161,16 @@ export default function Header() {
 
               {/* Mobile Social Icons */}
               <div className="flex md:hidden items-center space-x-2">
-                <a href="https://facebook.com/hbjsyndicate" className="text-white/70 hover:text-blue-400">
+                <a href="https://www.facebook.com/profile.php?id=61577842396368&rdid=zikEZDfBCCFMfSYV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GmAPnnXtW%2F#" className="text-white/70 hover:text-blue-400">
                   <Facebook className="h-3 w-3" />
                 </a>
-                <a href="https://twitter.com/hbjsyndicate" className="text-white/70 hover:text-sky-400">
+                {/* <a href="https://twitter.com/hbjsyndicate" className="text-white/70 hover:text-sky-400">
                   <Twitter className="h-3 w-3" />
-                </a>
-                <a href="https://instagram.com/hbjsyndicate" className="text-white/70 hover:text-pink-400">
+                </a> */}
+                <a href="https://www.instagram.com/hbjsyndicate21?igsh=d2ptYW45OHA4ZjF4&utm_source=ig_contact_invite" className="text-white/70 hover:text-pink-400">
                   <Instagram className="h-3 w-3" />
                 </a>
-                <a href="https://linkedin.com/company/hbjsyndicate" className="text-white/70 hover:text-blue-500">
+                <a href="https://www.linkedin.com/company/hbj-syndicate/" className="text-white/70 hover:text-blue-500">
                   <Linkedin className="h-3 w-3" />
                 </a>
               </div>
@@ -184,11 +183,10 @@ export default function Header() {
 
       {/* Main Header */}
       <header
-        className={`header-nav fixed left-0 right-0 z-40 transition-all duration-500 ease-out ${
-          isScrolled
+        className={`header-nav fixed left-0 right-0 z-40 transition-all duration-500 ease-out ${isScrolled
             ? "top-0 bg-white/98 backdrop-blur-2xl shadow-2xl border-b border-slate-200/30"
             : "bg-white/10 backdrop-blur-2xl border-b border-white/20 shadow-2xl"
-        }`}
+          }`}
         style={{
           top: isScrolled ? "0px" : "48px",
         }}
@@ -197,16 +195,15 @@ export default function Header() {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link href="/" className="logo-container flex items-center space-x-3 group">
-              <div className="relative">
+              <div className="relative ">
                 <HBJLogo className="w-14 h-14 transition-all duration-500 group-hover:scale-110 group-hover:rotate-12" />
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-400/30 to-blue-500/30 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
               <span
-                className={`text-2xl font-display font-bold transition-all duration-500 ${
-                  isScrolled
+                className={`text-2xl font-display font-bold transition-all duration-500 ${isScrolled
                     ? "bg-gradient-to-r from-slate-900 via-blue-700 to-amber-600 bg-clip-text text-transparent"
                     : "text-white drop-shadow-2xl"
-                }`}
+                  }`}
               >
                 HBJ Syndicate
               </span>
@@ -225,24 +222,21 @@ export default function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`nav-link transition-all duration-500 relative group font-semibold text-lg ${
-                    isScrolled
+                  className={`nav-link transition-all duration-500 relative group font-semibold text-lg ${isScrolled
                       ? "text-slate-800 hover:text-amber-600"
                       : "text-white hover:text-amber-300 drop-shadow-lg"
-                  }`}
+                    }`}
                 >
                   {item.label}
                   <span
-                    className={`absolute -bottom-2 left-0 w-0 h-0.5 transition-all duration-500 group-hover:w-full ${
-                      isScrolled
+                    className={`absolute -bottom-2 left-0 w-0 h-0.5 transition-all duration-500 group-hover:w-full ${isScrolled
                         ? "bg-gradient-to-r from-amber-500 to-blue-600"
                         : "bg-gradient-to-r from-amber-300 to-white"
-                    }`}
+                      }`}
                   ></span>
                   <span
-                    className={`absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10 scale-110 ${
-                      isScrolled ? "bg-gradient-to-r from-amber-500/10 to-blue-600/10" : "bg-white/20 backdrop-blur-sm"
-                    }`}
+                    className={`absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500 -z-10 scale-110 ${isScrolled ? "bg-gradient-to-r from-amber-500/10 to-blue-600/10" : "bg-white/20 backdrop-blur-sm"
+                      }`}
                   ></span>
                 </Link>
               ))}
@@ -262,11 +256,10 @@ export default function Header() {
               </div> */}
               <Link href="/contact">
                 <Button
-                  className={`cta-button shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 px-6 py-3 font-semibold ${
-                    isScrolled    
+                  className={`cta-button shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:scale-105 px-6 py-3 font-semibold ${isScrolled
                       ? "bg-gradient-to-r from-amber-500 via-blue-600 to-slate-800 hover:from-slate-800 hover:via-blue-600 hover:to-amber-500 text-white"
                       : "bg-white/20 backdrop-blur-sm border border-white/30 text-white hover:bg-white/30 hover:border-white/50"
-                  }`}
+                    }`}
                 >
                   Get Quote
                 </Button>
@@ -275,9 +268,8 @@ export default function Header() {
 
             {/* Mobile Menu Button */}
             <button
-              className={`lg:hidden transition-all duration-500 hover:scale-110 p-2 rounded-lg ${
-                isScrolled ? "hover:bg-slate-100 text-slate-800" : "hover:bg-white/20 text-white backdrop-blur-sm"
-              }`}
+              className={`lg:hidden transition-all duration-500 hover:scale-110 p-2 rounded-lg ${isScrolled ? "hover:bg-slate-100 text-slate-800" : "hover:bg-white/20 text-white backdrop-blur-sm"
+                }`}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -287,11 +279,10 @@ export default function Header() {
           {/* Mobile Navigation */}
           {isMenuOpen && (
             <div
-              className={`lg:hidden py-6 border-t rounded-b-2xl shadow-2xl transition-all duration-500 ${
-                isScrolled
+              className={`lg:hidden py-6 border-t rounded-b-2xl shadow-2xl transition-all duration-500 ${isScrolled
                   ? "border-slate-200/50 bg-white/98 backdrop-blur-2xl"
                   : "border-white/20 bg-white/10 backdrop-blur-2xl"
-              }`}
+                }`}
             >
               <nav className="flex flex-col space-y-4">
                 {[
@@ -305,11 +296,10 @@ export default function Header() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className={`transition-colors duration-500 py-3 px-4 rounded-lg text-lg font-semibold ${
-                      isScrolled
+                    className={`transition-colors duration-500 py-3 px-4 rounded-lg text-lg font-semibold ${isScrolled
                         ? "text-slate-800 hover:text-amber-600 hover:bg-slate-50"
                         : "text-white hover:text-amber-300 hover:bg-white/20"
-                    }`}
+                      }`}
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {item.label}
@@ -317,9 +307,8 @@ export default function Header() {
                 ))}
                 <div className={`pt-4 border-t ${isScrolled ? "border-slate-200" : "border-white/20"}`}>
                   <div
-                    className={`flex items-center space-x-2 px-4 mb-4 py-2 rounded-lg ${
-                      isScrolled ? "text-slate-700 bg-slate-100/80" : "text-white bg-white/20 backdrop-blur-sm"
-                    }`}
+                    className={`flex items-center space-x-2 px-4 mb-4 py-2 rounded-lg ${isScrolled ? "text-slate-700 bg-slate-100/80" : "text-white bg-white/20 backdrop-blur-sm"
+                      }`}
                   >
                     <Phone className={`h-4 w-4 ${isScrolled ? "text-amber-600" : "text-amber-300"}`} />
                     <span className="font-semibold">9173922112</span>
@@ -346,53 +335,47 @@ export default function Header() {
                   </div>
                   <div className="flex items-center justify-center space-x-6 mb-4">
                     <a
-                      href="https://facebook.com/hbjsyndicate"
-                      className={`transition-colors duration-300 ${
-                        isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/80 hover:text-blue-300"
-                      }`}
+                      href="https://www.facebook.com/profile.php?id=61577842396368&rdid=zikEZDfBCCFMfSYV&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1GmAPnnXtW%2F#"
+                      className={`transition-colors duration-300 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/80 hover:text-blue-300"
+                        }`}
                     >
                       <Facebook className="h-5 w-5" />
                     </a>
-                    <a
+                    {/* <a
                       href="https://twitter.com/hbjsyndicate"
-                      className={`transition-colors duration-300 ${
-                        isScrolled ? "text-slate-600 hover:text-sky-600" : "text-white/80 hover:text-sky-300"
-                      }`}
+                      className={`transition-colors duration-300 ${isScrolled ? "text-slate-600 hover:text-sky-600" : "text-white/80 hover:text-sky-300"
+                        }`}
                     >
                       <Twitter className="h-5 w-5" />
-                    </a>
+                    </a> */}
                     <a
-                      href="https://instagram.com/hbjsyndicate"
-                      className={`transition-colors duration-300 ${
-                        isScrolled ? "text-slate-600 hover:text-pink-600" : "text-white/80 hover:text-pink-300"
-                      }`}
+                      href="https://www.instagram.com/hbjsyndicate21?igsh=d2ptYW45OHA4ZjF4&utm_source=ig_contact_invite"
+                      className={`transition-colors duration-300 ${isScrolled ? "text-slate-600 hover:text-pink-600" : "text-white/80 hover:text-pink-300"
+                        }`}
                     >
                       <Instagram className="h-5 w-5" />
                     </a>
                     <a
-                      href="https://linkedin.com/company/hbjsyndicate"
-                      className={`transition-colors duration-300 ${
-                        isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/80 hover:text-blue-300"
-                      }`}
+                      href="https://www.linkedin.com/company/hbj-syndicate/"
+                      className={`transition-colors duration-300 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/80 hover:text-blue-300"
+                        }`}
                     >
                       <Linkedin className="h-5 w-5" />
                     </a>
-                    <a
+                    {/* <a
                       href="https://t.me/hbjsyndicate"
-                      className={`transition-colors duration-300 ${
-                        isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/80 hover:text-blue-300"
-                      }`}
+                      className={`transition-colors duration-300 ${isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/80 hover:text-blue-300"
+                        }`}
                     >
                       <Send className="h-5 w-5" />
-                    </a>
+                    </a> */}
                   </div>
                   <Link href="/contact">
                     <Button
-                      className={`w-full font-semibold transition-all duration-500 ${
-                        isScrolled
+                      className={`w-full font-semibold transition-all duration-500 ${isScrolled
                           ? "bg-gradient-to-r from-amber-500 to-blue-600 text-white"
                           : "bg-white/20 backdrop-blur-sm border border-white/30 text-white hover:bg-white/30"
-                      }`}
+                        }`}
                     >
                       Get Quote
                     </Button>

@@ -166,7 +166,7 @@ export default function UIUXDesignPage() {
                       <Palette className="h-8 w-8 text-white" />
                     </div>
                     <CardTitle className="text-xl font-display font-bold text-appex-navy">{pkg.name}</CardTitle>
-                    <div className="text-3xl font-display font-bold text-appex-gold">₹{pkg.price.toLocaleString()}</div>
+                    {/* <div className="text-3xl font-display font-bold text-appex-gold">₹{pkg.price.toLocaleString()}</div> */}
                     <p className="text-sm text-slate-600">{pkg.ideal}</p>
                   </CardHeader>
                   <CardContent>
@@ -218,7 +218,7 @@ export default function UIUXDesignPage() {
                       <div className="flex items-center justify-between">
                         <div>
                           <h4 className="font-medium text-appex-navy text-sm">{feature.name}</h4>
-                          <p className="text-appex-gold font-semibold">+₹{feature.price.toLocaleString()}</p>
+                          {/* <p className="text-appex-gold font-semibold">+₹{feature.price.toLocaleString()}</p> */}
                         </div>
                         <CheckCircle
                           className={`h-5 w-5 ${
@@ -239,9 +239,9 @@ export default function UIUXDesignPage() {
               <CardContent className="p-8">
                 <div className="text-center">
                   <h3 className="text-2xl font-display font-bold text-appex-navy mb-4">Total Investment</h3>
-                  <div className="text-5xl font-display font-bold text-appex-gold mb-4">
+                  {/* <div className="text-5xl font-display font-bold text-appex-gold mb-4">
                     ₹{calculateTotalPrice().toLocaleString()}
-                  </div>
+                  </div> */}
                   <p className="text-slate-600 mb-6">
                     {packages[selectedPackage as keyof typeof packages].name}
                     {selectedFeatures.length > 0 && ` + ${selectedFeatures.length} additional features`}
