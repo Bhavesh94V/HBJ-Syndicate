@@ -22,11 +22,70 @@ const playfair = Playfair_Display({
   display: "swap",
 })
 
+// export const metadata: Metadata = {
+//   title: "HBJ Syndicate - Premium Web Development & Digital Solutions",
+//   description:
+//     "Transform your digital presence with HBJ Syndicate's expert web development, e-commerce solutions, and cutting-edge digital services. Based in Mumbai, serving clients globally.",
+//   keywords: "web development, e-commerce, digital solutions, Mumbai, India, responsive design, SEO, web applications",
+//   authors: [{ name: "HBJ Syndicate" }],
+//   creator: "HBJ Syndicate",
+//   publisher: "HBJ Syndicate",
+//   formatDetection: {
+//     email: false,
+//     address: false,
+//     telephone: false,
+//   },
+//   metadataBase: new URL("https://hbjsyndicate.com"),
+//   alternates: {
+//     canonical: "/",
+//   },
+//   openGraph: {
+//     title: "HBJ Syndicate - Premium Web Development & Digital Solutions",
+//     description: "Transform your digital presence with expert web development and cutting-edge digital solutions.",
+//     url: "https://hbjsyndicate.com",
+//     siteName: "HBJ Syndicate",
+//     images: [
+//       {
+//         url: "/images/og-image.jpg",
+//         width: 1200,
+//         height: 630,
+//         alt: "HBJ Syndicate - Web Development Excellence",
+//       },
+//     ],
+//     locale: "en_US",
+//     type: "website",
+//   },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "HBJ Syndicate - Premium Web Development",
+//     description: "Transform your digital presence with expert web development solutions.",
+//     images: ["/images/twitter-image.jpg"],
+//   },
+//   robots: {
+//     index: true,
+//     follow: true,
+//     googleBot: {
+//       index: true,
+//       follow: true,
+//       "max-video-preview": -1,
+//       "max-image-preview": "large",
+//       "max-snippet": -1,
+//     },
+//   },
+//   icons: {
+//     icon: "/favicon.ico",
+//   },
+//   verification: {
+//     google: "Znh8qnubKKQ5oBZTC8gKra5Ng7iwxTyhLq-Yn4nWmJ4",
+//   },
+//     generator: 'v0.dev'
+// }
 export const metadata: Metadata = {
-  title: "HBJ Syndicate - Premium Web Development & Digital Solutions",
+  title: "HBJ Syndicate - Web Development Company in Mumbai | Digital Solutions",
   description:
-    "Transform your digital presence with HBJ Syndicate's expert web development, e-commerce solutions, and cutting-edge digital services. Based in Mumbai, serving clients globally.",
-  keywords: "web development, e-commerce, digital solutions, Mumbai, India, responsive design, SEO, web applications",
+    "HBJ Syndicate is Mumbai's trusted web development company offering premium digital solutions, SEO, and e-commerce services. Grow your business with HBJ Syndicate today.",
+  keywords:
+    "HBJ Syndicate, hbj syndicate, HBJ, web development, web development company in Mumbai, digital solutions, e-commerce, SEO, responsive design, India",
   authors: [{ name: "HBJ Syndicate" }],
   creator: "HBJ Syndicate",
   publisher: "HBJ Syndicate",
@@ -40,8 +99,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "HBJ Syndicate - Premium Web Development & Digital Solutions",
-    description: "Transform your digital presence with expert web development and cutting-edge digital solutions.",
+    title: "HBJ Syndicate - Web Development Company in Mumbai | Digital Solutions",
+    description:
+      "HBJ Syndicate is Mumbai's trusted web development company offering premium digital solutions, SEO, and e-commerce services.",
     url: "https://hbjsyndicate.com",
     siteName: "HBJ Syndicate",
     images: [
@@ -57,8 +117,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HBJ Syndicate - Premium Web Development",
-    description: "Transform your digital presence with expert web development solutions.",
+    title: "HBJ Syndicate - Web Development Company in Mumbai",
+    description:
+      "HBJ Syndicate is Mumbai's trusted web development company offering premium digital solutions and SEO services.",
     images: ["/images/twitter-image.jpg"],
   },
   robots: {
@@ -78,8 +139,9 @@ export const metadata: Metadata = {
   verification: {
     google: "Znh8qnubKKQ5oBZTC8gKra5Ng7iwxTyhLq-Yn4nWmJ4",
   },
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
+
 
 export default function RootLayout({
   children,
