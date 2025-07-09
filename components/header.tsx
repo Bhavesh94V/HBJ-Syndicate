@@ -98,7 +98,7 @@ export default function Header() {
               </div>
               <div className="flex items-center space-x-2 text-white/70">
                 <MapPin className="h-4 w-4" />
-                <span>Ahmedabad, Gujarat</span>
+                <span>Nava Naroda , Ahmedabad</span>
               </div>
             </div>
 
@@ -196,7 +196,7 @@ export default function Header() {
             {/* Logo */}
             <Link href="/" className="logo-container flex items-center space-x-3 group">
               <div className="relative ">
-                <HBJLogo className="w-14 h-14 transition-all duration-500 group-hover:scale-110 group-hover:rotate-12" />
+                <HBJLogo className="w-14 h-14 transition-all duration-500 group-hover:scale-110 group-hover:rotate-0" />
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-400/30 to-blue-500/30 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
               <span
@@ -215,7 +215,7 @@ export default function Header() {
                 { href: "/", label: "Home" },
                 { href: "/about", label: "About" },
                 { href: "/services", label: "Services" },
-                { href: "/projects", label: "Projects" },
+                // { href: "/projects", label: "Projects" },
                 { href: "/careers", label: "Careers" },
                 { href: "/contact", label: "Contact" },
               ].map((item, index) => (

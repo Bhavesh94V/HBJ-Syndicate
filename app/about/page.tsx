@@ -41,7 +41,7 @@ export default function AboutPage() {
       role: "Chief Executive Officer",
       icon: Code,
       description:
-        "Visionary leader with 1+ years in technology and business strategy. Drives company vision, strategic partnerships, and business growth with deep expertise in digital transformation and client success.",
+        "Visionary leader with 3+ years in technology and business strategy. Drives company vision, strategic partnerships, and business growth with deep expertise in digital transformation and client success.",
       expertise: [
         "Business Strategy",
         "Digital Transformation",
@@ -68,7 +68,7 @@ export default function AboutPage() {
       role: "Chief Technology Officer",
       icon: Crown,
       description:
-        "Full-stack technology expert with 3+ years specializing in modern web frameworks, cloud architecture, and scalable solutions. Leads technical innovation and development excellence.",
+        "Full-stack technology expert with 1+ years specializing in modern web frameworks, cloud architecture, and scalable solutions. Leads technical innovation and development excellence.",
       expertise: [
         "Full-Stack Development",
         "Cloud Architecture",
@@ -258,21 +258,17 @@ export default function AboutPage() {
                   <h2 className="text-3xl md:text-5xl font-display font-bold text-slate-900 mb-8">Our Story</h2>
                   <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
                     <p>
-                      HBJ Syndicate was founded by three passionate technologists who shared a vision of transforming
-                      businesses through innovative digital solutions. With combined experience of over 20 years, our
-                      founders bring together expertise in business strategy, technical architecture, and development
-                      excellence.
+                      HBJ Syndicate was founded by five driven individuals — Harsh Prajapati, Bhavesh Vishwakarma, Jay Prajapati, Het Patel, and Rohan Patel — who share a unified vision of empowering businesses through modern digital solutions.
                     </p>
                     <p>
-                      <strong className="text-slate-900">Jay Prajapati</strong> leads our business strategy and client
-                      relationships, ensuring every project aligns with business goals.{" "}
-                      <strong className="text-slate-900">Harsh Prajapati</strong> drives our technical innovation and
-                      architecture decisions, while <strong className="text-slate-900">Bhavesh Vishwakarma</strong>{" "}
-                      ensures robust backend systems and optimal performance.
+
+
+
+                      With a blend of technical expertise, creative thinking, and strategic insight, our team brings together experience across development, design, finance, and business strategy.<strong className="text-slate-900">Harsh Prajapati</strong> leads our technical innovation and system architecture, ensuring our solutions are built on solid foundations.<strong className="text-slate-900"> Bhavesh Vishwakarma</strong> focuses on backend development and performance optimization, making sure everything runs smoothly and efficiently.<strong className="text-slate-900">Jay Prajapati </strong>manages our business strategy and client relationships, aligning every project with the client’s vision and goals. <strong className="text-slate-900">Het Patel</strong> oversees financial planning and ensures sustainable growth, keeping our operations financially sound. <strong className="text-slate-900">Rohan Patel</strong> handles project coordination and day-to-day management, ensuring that all moving parts work seamlessly together.
+
                     </p>
                     <p>
-                      Together, we've built a company that bridges the gap between cutting-edge technology and practical
-                      business solutions, helping businesses thrive in the digital age.
+                      Together, we are building HBJ Syndicate into a forward-thinking tech startup that bridges the gap between technology and real-world business needs — helping our clients thrive in the digital age.
                     </p>
                   </div>
                 </div>
@@ -381,7 +377,7 @@ export default function AboutPage() {
                 <div className="text-center">
                   <MapPin className="h-8 w-8 text-amber-400 mx-auto mb-4" />
                   <h3 className="font-display font-semibold mb-2">Location</h3>
-                  <p className="text-slate-300">Ahmedabad, Gujarat</p>
+                  <p className="text-slate-300">Nava Naroda , Ahmedabad</p>
                 </div>
               </div>
 

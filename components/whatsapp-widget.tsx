@@ -151,7 +151,7 @@ export default function WhatsAppWidget({ isOpen, onClose }: WhatsAppWidgetProps)
             <span className="text-sm font-semibold text-gray-700">Business Hours</span>
           </div>
           <div className="text-xs text-gray-600 space-y-1">
-            <div>Mon - Sat: 9:00 AM - 8:00 PM</div>
+            <div>Mon - Sat: 9:00 AM - 1:00 PM</div>
             <div>Sunday: Available for urgent support</div>
           </div>
         </div>

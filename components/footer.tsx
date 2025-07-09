@@ -27,7 +27,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3 text-slate-300">
                 <MapPin className="h-5 w-5 text-amber-400" />
-                <span>Ahmedabad, Gujarat</span>
+                <span>Nava Naroda , Ahmedabad, Gujarat</span>
               </div>
             </div>
           </div>
@@ -37,9 +37,10 @@ export default function Footer() {
             <h3 className="text-xl font-display font-semibold mb-6 text-amber-400">Quick Links</h3>
             <ul className="space-y-3">
               {[
+                { href: "/", label: "Home" },
                 { href: "/about", label: "About Us" },
                 { href: "/services", label: "Services" },
-                { href: "/projects", label: "Our Work" },
+                // { href: "/projects", label: "Our Work" },
                 { href: "/careers", label: "Careers" },
                 { href: "/contact", label: "Contact" },
               ].map((link) => (
@@ -89,9 +90,10 @@ export default function Footer() {
             </Link>
 
             <div className="mt-8">
-              <p className="text-slate-300 text-sm mb-2">Business Hours:</p>
-              <p className="text-amber-400 font-medium">Mon - Sat: 9:30 AM - 6:30 PM</p>
-              <p className="text-slate-300 text-sm">Sunday: Available for urgent support</p>
+              <p className="text-slate-300 text-md font-semibold mb-2">Business Hours:</p>
+              <p className="text-amber-400 font-medium">Mon - Fri: 9:30 AM - 6:30 PM</p>
+              <p className="text-amber-400 font-medium">Sat: 9:30 AM - 1:00 PM</p>
+              <p className="text-slate-300 font-medium">Sunday: Available for urgent support</p>
             </div>
           </div>
         </div>

@@ -104,7 +104,7 @@ export default function ContactPage() {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: ["Mumbai, India", "By appointment only"],
+      details: ["Nava Naroda, Ahmedabad", "By appointment only"],
       action: "#",
       gradient: "from-amber-500 to-orange-600",
     },
@@ -446,11 +446,11 @@ export default function ContactPage() {
                     <div className="space-y-2 text-slate-600">
                       <div className="flex justify-between">
                         <span>Monday - Friday</span>
-                        <span className="font-medium">9:00 AM - 8:00 PM</span>
+                        <span className="font-medium">9:30 AM - 6:30 PM</span>
                       </div>
                       <div className="flex justify-between">
                         <span>Saturday</span>
-                        <span className="font-medium">10:00 AM - 6:00 PM</span>
+                        <span className="font-medium">9:30 AM - 1:00 PM</span>
                       </div>
                       <div className="flex justify-between">
                         <span>Sunday</span>

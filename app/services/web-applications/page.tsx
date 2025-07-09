@@ -241,7 +241,7 @@ export default function WebApplicationsPage() {
             <Card className="mt-8 border-appex-gold/30 bg-gradient-to-br from-appex-light to-slate-50 shadow-xl">
               <CardContent className="p-8">
                 <div className="text-center">
-                  <h3 className="text-2xl font-display font-bold text-appex-navy mb-4">Total Investment</h3>
+                  <h3 className="text-2xl font-display font-bold text-appex-navy mb-4">Contact For Pricing</h3>
                   {/* <div className="text-5xl font-display font-bold text-appex-gold mb-4">
                     ₹{calculateTotalPrice().toLocaleString()}
                   </div> */}
